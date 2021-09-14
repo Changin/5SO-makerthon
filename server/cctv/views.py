@@ -27,13 +27,18 @@ def set_cctv_image(request):
             }
             return HttpResponse(json.dumps(data), content_type = "application/json")
         else:
+            pass
             #send image
 
         #return HttpResponse(json.dumps(data), content_type = "application/json")
-    
+
     else:
-        return render(request, 'cctv/main_page.html', {})
-        
+        data = {
+            "key": "value",
+            "pub_date": timezone.datetime.now(),
+        }
+        return HttpResponse(json.dumps(data), content_type = "application/json")
+
 
 
 def get_cctv_data(request):
