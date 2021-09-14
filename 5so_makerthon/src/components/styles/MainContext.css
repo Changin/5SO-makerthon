@@ -1,0 +1,14 @@
+.centered {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.channel
+{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAD2;
+}
