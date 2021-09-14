@@ -1,0 +1,17 @@
+@font-face{
+  font-family: "strongmil_bold";
+  src:url("../src/components/fonts/strongmil_bold.ttf") format("truetype"),
+      url("../src/components/fonts/strongmil_bold.woff") format("woff");
+  
+}
+@font-face{
+  font-family: "NanumSquareRoundB";
+  src:url("../src/components/fonts/NanumSquareRoundB.ttf") format("truetype"),
+      url("../src/components/fonts/NanumSquareRoundB_1.woff") format("woff");
+}
+
+@font-face{
+  font-family: "NanumSquareRoundL";
+  src:url("../src/components/fonts/NanumSquareRoundL.ttf") format("truetype"),
+      url("../src/components/fonts/NanumSquareRoundL_1.woff") format("woff");
+}
