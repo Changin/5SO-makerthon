@@ -1,3 +1,4 @@
+import sys
 from django.shortcuts import render
 from django.http import JsonResponse
 from django.views import View
@@ -5,6 +6,9 @@ import json
 from django.conf import settings
 from django.views.decorators.csrf import csrf_exempt
 import base64
+
+sys.path.append('/makerthon/5SO-makerthon/server/cctv/Module')
+from scripts import pedestrian_detection
 
 # Create your views here.
 # pub_date = timezone.datetime.now()
@@ -40,6 +44,7 @@ def set_cctv_image(request):
         destination.close()
 
         pass  ############# call model !!!
+        pedestrian_detection.main(settings.MEDIA_ROOT+"/"+filename, settings.MEDIA_ROOT+"/"+"output.png")
         
         #todo : import module, get response data
         if(warning is 0):   # 이미지 판단 결과 이상 감지 안된 경우
