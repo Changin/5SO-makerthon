@@ -3,32 +3,54 @@ from django.http import JsonResponse
 from django.views import View
 import json
 from django.conf import settings
+from django.views.decorators.csrf import csrf_exempt
+import base64
 
 # Create your views here.
 # pub_date = timezone.datetime.now()
 
+flag = 0 ##initialize model variable##
+
 #save image file to server
+@csrf_exempt
 def set_cctv_image(request):
     if (request.method == 'POST'):
-        filename = request.POST['title']
+        print("set_cctv_image activated")
+        #filename = request.POST['title']
+        filename = "testimage.png"
         
-        destination = open(settings.MEDIA_ROOT + filename, 'wb+')
+        destination = open(settings.MEDIA_ROOT +"/"+ filename, 'wb+')
+
+        data = json.loads(request.body)
+        base64_img = data.get('data', None)
+
+        base64_img = base64_img[22:]
+
+        new_base64_img = base64_img + '=' * (4 - len(base64_img) % 4)
+
+        img_byte = base64.b64decode(new_base64_img)
+        img = img_byte
+        #img = img_byte.decode('ascii')
+
         
-        for img in request.FILES.getlist('imgs'):
-            destination.wirte(img)
+        #print("recieved image, image data : "+img)
+
+        destination.write(img)
             
         destination.close()
+
+        pass  ############# call model !!!
         
         #todo : import module, get response data
-        if(safe):
+        if(warning is 0):   # 이미지 판단 결과 이상 감지 안된 경우
             data = {
                 "key": "value",
                 "pub_date": timezone.datetime.now(),
             }
             return HttpResponse(json.dumps(data), content_type = "application/json")
-        else:
+        else:   # 이상 감지된 경우
             pass
-            #send image
+            #send image path
 
         #return HttpResponse(json.dumps(data), content_type = "application/json")
 
@@ -42,13 +64,12 @@ def set_cctv_image(request):
 
 
 def get_cctv_data(request):
-    
-    #todo : import module, get alert data
-    #todo : print module data to console
-    data = {
-        "min": 0,
-        "sec": 15,
-    }
+    global flag
 
-    return HttpResponse(json.dumps(data), content_type = "application/json")
-    #return render(request, 'cctv/main_page.html', {})
+    #initialize
+    if(flag is 0):
+        flag = 1
+        pass ########   call initialize function!!
+
+
+    return render(request, 'cctv/main_page.html', {})

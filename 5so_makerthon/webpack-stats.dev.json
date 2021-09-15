@@ -1,0 +1,96 @@
+{
+  "status": "done",
+  "assets": {
+    "static/media/NanumSquareRoundB.8ab117fc.ttf": {
+      "name": "static/media/NanumSquareRoundB.8ab117fc.ttf",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\media\\NanumSquareRoundB.8ab117fc.ttf",
+      "publicPath": "/static/media/NanumSquareRoundB.8ab117fc.ttf"
+    },
+    "static/media/NanumSquareRoundB_1.b90afaf6.woff": {
+      "name": "static/media/NanumSquareRoundB_1.b90afaf6.woff",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\media\\NanumSquareRoundB_1.b90afaf6.woff",
+      "publicPath": "/static/media/NanumSquareRoundB_1.b90afaf6.woff"
+    },
+    "static/media/NanumSquareRoundL.34b53f37.ttf": {
+      "name": "static/media/NanumSquareRoundL.34b53f37.ttf",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\media\\NanumSquareRoundL.34b53f37.ttf",
+      "publicPath": "/static/media/NanumSquareRoundL.34b53f37.ttf"
+    },
+    "static/media/NanumSquareRoundL_1.181ebcf5.woff": {
+      "name": "static/media/NanumSquareRoundL_1.181ebcf5.woff",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\media\\NanumSquareRoundL_1.181ebcf5.woff",
+      "publicPath": "/static/media/NanumSquareRoundL_1.181ebcf5.woff"
+    },
+    "static/media/strongmil_bold.22de4e54.ttf": {
+      "name": "static/media/strongmil_bold.22de4e54.ttf",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\media\\strongmil_bold.22de4e54.ttf",
+      "publicPath": "/static/media/strongmil_bold.22de4e54.ttf"
+    },
+    "static/media/strongmil_bold.f95127d1.woff": {
+      "name": "static/media/strongmil_bold.f95127d1.woff",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\media\\strongmil_bold.f95127d1.woff",
+      "publicPath": "/static/media/strongmil_bold.f95127d1.woff"
+    },
+    "static/js/0.chunk.js": {
+      "name": "static/js/0.chunk.js",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\0.chunk.js",
+      "publicPath": "/static/js/0.chunk.js"
+    },
+    "static/js/main.chunk.js": {
+      "name": "static/js/main.chunk.js",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\main.chunk.js",
+      "publicPath": "/static/js/main.chunk.js"
+    },
+    "static/js/bundle.js": {
+      "name": "static/js/bundle.js",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\bundle.js",
+      "publicPath": "/static/js/bundle.js"
+    },
+    "static/js/vendors~main.chunk.js": {
+      "name": "static/js/vendors~main.chunk.js",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\vendors~main.chunk.js",
+      "publicPath": "/static/js/vendors~main.chunk.js"
+    },
+    "static/js/0.chunk.js.map": {
+      "name": "static/js/0.chunk.js.map",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\0.chunk.js.map",
+      "publicPath": "/static/js/0.chunk.js.map"
+    },
+    "static/js/main.chunk.js.map": {
+      "name": "static/js/main.chunk.js.map",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\main.chunk.js.map",
+      "publicPath": "/static/js/main.chunk.js.map"
+    },
+    "static/js/bundle.js.map": {
+      "name": "static/js/bundle.js.map",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\bundle.js.map",
+      "publicPath": "/static/js/bundle.js.map"
+    },
+    "static/js/vendors~main.chunk.js.map": {
+      "name": "static/js/vendors~main.chunk.js.map",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\static\\js\\vendors~main.chunk.js.map",
+      "publicPath": "/static/js/vendors~main.chunk.js.map"
+    },
+    "index.html": {
+      "name": "index.html",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\index.html",
+      "publicPath": "/index.html"
+    },
+    "asset-manifest.json": {
+      "name": "asset-manifest.json",
+      "path": "C:\\Users\\win\\Makerthon\\5SO-makerthon\\5so_makerthon\\dist\\asset-manifest.json",
+      "publicPath": "/asset-manifest.json"
+    }
+  },
+  "chunks": {
+    "main": [
+      "static/js/bundle.js",
+      "static/js/bundle.js.map",
+      "static/js/vendors~main.chunk.js",
+      "static/js/vendors~main.chunk.js.map",
+      "static/js/main.chunk.js",
+      "static/js/main.chunk.js.map"
+    ]
+  },
+  "publicPath": "/"
+}
